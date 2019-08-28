@@ -1,0 +1,25 @@
+{
+  "name": "chai-image-snapshot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/*test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest-image-snapshot": "^2.9.0",
+    "jest-snapshot": "^24.9.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/jest-image-snapshot": "^2.8.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
